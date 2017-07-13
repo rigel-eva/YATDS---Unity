@@ -29,12 +29,17 @@ public class BEnemy : MonoBehaviour {
 
         }
     }
+    void OnHitPlayer(Player_Ship player){
+        player.Hit_Points -= .2f;
+		Destroy(this.gameObject);//Kill ourself if we collide with the player
+
+	}
     void OnTriggerEnter2D(Collider2D col)
     {
         print(col.gameObject.name);
         if (col.gameObject.name == "Player")
         {
-            Destroy(this.gameObject);//Kill ourself if ew collide with the playsr
+            OnHitPlayer((Player_Ship)col.gameObject.GetComponent<Player_Ship>());
         }
     }
 }
