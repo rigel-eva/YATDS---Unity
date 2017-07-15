@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio for Mac
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shooterTest0", "shooterTest0.csproj", "{C1FC6589-C3CA-963A-AF0E-11854B500F25}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shooterTest0.Editor", "shooterTest0.Editor.csproj", "{DF149C10-9D07-2224-E0F8-22A2B82C4B9E}"

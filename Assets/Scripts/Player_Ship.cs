@@ -6,6 +6,7 @@ public class Player_Ship : MonoBehaviour {
     public Texture hp_bar_fill;
     public Texture hp_bar_background;
     public Texture hp_bar_foreground;
+    public Camera playerCamera;
     public Rect hp_Area;
     public float Hit_Points
     {
@@ -20,8 +21,10 @@ public class Player_Ship : MonoBehaviour {
     }
 	// Use this for initialization
 	void Start () {
-	
-	}
+        //Let's go ahead and get our bounds for where we can move
+        //TODO: add in bounding script
+
+    }
     void OnGUI()
     {
         GUI.DrawTexture(new Rect(0, 0, hp_bar_background.width, hp_bar_background.height), hp_bar_background);
@@ -46,6 +49,10 @@ public class Player_Ship : MonoBehaviour {
         else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             transform.Translate(-speed, 0, 0);
+        }
+        if (Input.GetKeyUp(KeyCode.Home))
+        {
+            playerCamera.orthographic = !playerCamera.orthographic;
         }
 	}
 }
