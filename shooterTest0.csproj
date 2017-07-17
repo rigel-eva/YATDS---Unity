@@ -102,6 +102,7 @@
     <Compile Include="Assets\Scripts\Helper\Spline - CatLikeCoding.com\BezierCurve.cs" />
     <Compile Include="Assets\Scripts\Helper\Spline - CatLikeCoding.com\BezierSpline.cs" />
     <Compile Include="Assets\Scripts\Helper\Spline - CatLikeCoding.com\Line.cs" />
+    <Compile Include="Assets\Scripts\PlayerCamera.cs" />
     <Compile Include="Assets\Scripts\Player_Ship.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

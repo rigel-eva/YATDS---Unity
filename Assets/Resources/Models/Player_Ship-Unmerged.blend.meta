@@ -1,30 +1,27 @@
 fileFormatVersion: 2
-guid: 529e4bfe31b73944f91a195330def589
-timeCreated: 1499986350
+guid: 0ea6c604392ed487eb65a09634e5c7c2
+timeCreated: 1500184139
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Cylinder
-    100004: Cylinder_001
-    100006: Equalateral_Pyramid
-    400000: //RootNode
-    400002: Cylinder
-    400004: Cylinder_001
-    400006: Equalateral_Pyramid
-    2300000: //RootNode
-    2300002: Cylinder
-    2300004: Cylinder_001
-    2300006: Equalateral_Pyramid
-    3300000: //RootNode
-    3300002: Cylinder
-    3300004: Cylinder_001
-    3300006: Equalateral_Pyramid
-    4300000: Plane
-    4300002: Equalateral_Pyramid
-    4300004: Cylinder_001
-    4300006: Cylinder
+    100000: Cylinder
+    100002: Cylinder_001
+    100004: Equalateral_Pyramid
+    100006: //RootNode
+    400000: Cylinder
+    400002: Cylinder_001
+    400004: Equalateral_Pyramid
+    400006: //RootNode
+    2300000: Cylinder
+    2300002: Cylinder_001
+    2300004: Equalateral_Pyramid
+    3300000: Cylinder
+    3300002: Cylinder_001
+    3300004: Equalateral_Pyramid
+    4300000: Cylinder_001
+    4300002: Cylinder
+    4300004: Equalateral_Pyramid
     7400000: Default Take
     9500000: //RootNode
   materials:

@@ -7,6 +7,7 @@ public class Player_Ship : MonoBehaviour {
     public Texture hp_bar_background;
     public Texture hp_bar_foreground;
     public Camera playerCamera;
+    public float speed = 50f;
     public Rect hp_Area;
     public float Hit_Points
     {
@@ -53,6 +54,11 @@ public class Player_Ship : MonoBehaviour {
         if (Input.GetKeyUp(KeyCode.Home))
         {
             playerCamera.orthographic = !playerCamera.orthographic;
+        }
+        
+        else
+        {
+            Cursor.lockState = CursorLockMode.None;
         }
 	}
 }
